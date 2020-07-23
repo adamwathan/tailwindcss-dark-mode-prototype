@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^1.0.19",
+    "@mdx-js/mdx": "^1.6.6",
+    "@next/mdx": "^8.1.0",
+    "@tailwindcss/typography": "^0.2.0",
+    "@tailwindcss/ui": "^0.4.0",
+    "autoprefixer": "^9.6.1",
+    "clean-css": "^4.2.1",
+    "cssnano": "^4.1.10",
+    "dedent": "^0.7.0",
+    "highlight.js": "^9.15.6",
+    "lodash": "^4.17.19",
+    "next": "^9.4.4",
+    "postcss": "^7.0.17",
+    "postcss-selector-parser": "^6.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "tailwindcss": "^1.5"
+  }
+}
